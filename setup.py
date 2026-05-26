@@ -30,6 +30,6 @@ setup(
     "Operating System :: OS Independent",
   ],
   entry_points={
-    "console_scripts": ["netchat=netchat_app.__main__:run", "netchat-app=netchat_app.__main__:run"],
+    "console_scripts": ["netchat=netchat_app.__main__:main", "netchat-app=netchat_app.__main__:main"],
   }
 )

@@ -35,5 +35,5 @@ Issues = "https://github.com/samuellouf/netchat/issues"
 Changelog = "https://github.com/samuellouf/netchat/blob/master/CHANGELOG.md"
 
 [project.scripts]
-netchat = "netchat_app.__main__:run"
-netchat-app = "netchat_app.__main__:run"
+netchat = "netchat_app.__main__:main"
+netchat-app = "netchat_app.__main__:main"
