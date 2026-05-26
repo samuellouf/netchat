@@ -75,7 +75,7 @@ And that's it! You have your account and you can start chatting.
 ### On an other machine in the same network
 1. Check that netchat is running on all adresses (0.0.0.0)
    - Unless you have used the `--host` argument, netchat should already be accessible by the network
-2. Get the IP adress of the machine running netchat and the port it is running on
+2. Get the IP address of the machine running netchat and the port it is running on
    - If you have opened netchat's gui on the server, the IP and port should be displayed at the top of the page.
 3. Open the server in your navigator (`http://[server ip]:[port]/`)
 4. Create an account
