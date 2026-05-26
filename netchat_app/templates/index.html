@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NetChat</title>
+  <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+  <header>
+    <span><b>NetChat</b> <i>v<span class="version">?</span></i> - </span>
+    <span class="signedin" style="display: none;">Connecté en tant que </span>
+    <span class="username"></span>
+    <span> au port </span>
+    <span class="port"></span>
+    <span> du serveur </span>
+    <span class="server">?</span>
+  </header>
+  <br>
+  <section id="account">
+    <section id="signin">
+      <h1 class="title" align="center">S'inscrire</h1>
+      <br>
+      <form>
+        <label
+          >Nom d'utilisateur:
+          <input type="text" name="username" autocomplete="username"/>
+        </label>
+        <br>
+        <label
+          >Mot de passe:
+          <input type="password" name="password" autocomplete="password"/>
+        </label>
+        <br>
+        <br>
+        <div style="display: flex; justify-content: center;">
+          <button>S'inscrire</button>
+        </div>
+      </form>
+      <p align="center">J'ai déjà un compte. <span class="link">Se connecter</span></p>
+    </section>
+    <section id="login" class="hidden">
+      <h1 class="title" align="center">Se connecter</h1>
+      <br>
+      <form>
+        <label
+          >Nom d'utilisateur:
+          <input type="text" name="username"/>
+        </label>
+        <br>
+        <label
+          >Mot de passe:
+          <input type="password" name="password"/>
+        </label>
+        <br>
+        <br style="font-size: 128px;">
+        <div style="display: flex; justify-content: center;">
+          <button>Se connecter</button>
+        </div>
+      </form>
+      <p align="center">Je n'ai pas de compte. <span class="link">S'inscrire</span></p>
+    </section>
+  </section>
+  <section id="chat" class="hidden">
+    <section id="messages">
+    </section>
+    <br>
+    <button id="scrolldown">⇓</button>
+  </section>
+  <footer>
+    <section id="entry" class="hidden">
+      <textarea placeholder="Tapez votre message..."></textarea>
+      <br>
+      <button class="send">Envoyer</button>
+    </section>
+    <br>
+    <p align="center">NetChat - fait par SamuelLouf sur <a href="https://github.com/samuellouf">GitHub</a></p>
+  </footer>
+  <script src="./static/api.js"></script>
+  <script src="./static/account.js"></script>
+  <script src="./static/chat.js"></script>
+</body>
+</html>
