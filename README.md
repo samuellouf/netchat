@@ -41,7 +41,7 @@ $ netchat
 ```
 $ git clone https://github.com/samuellouf/netchat.git
 $ cd netchat
-$ python setup.py install
+$ pip install .
 ```
 
 Then to run it, execute the following in the terminal:
@@ -49,6 +49,9 @@ Then to run it, execute the following in the terminal:
 ```
 $ netchat
 ```
+
+> [!IMPORTANT]
+> To uninstall it, run `pip uninstall netchat-app`
 
 #### Running Locally via [Github](https://github.com/samuellouf/netchat) (no install)
 
